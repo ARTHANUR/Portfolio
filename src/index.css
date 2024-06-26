@@ -3,4 +3,6 @@
 body{
   background-color: #FEFFF0;
   font-family: "Space Grotesk", sans-serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
