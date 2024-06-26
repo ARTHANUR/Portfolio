@@ -1,0 +1,42 @@
+.navbar{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    >img{
+        width: 150px;
+        height: 150px;
+    }
+    >.navigation-container{
+        background-image: url("https://res.cloudinary.com/dboa7dqkl/image/upload/v1719413618/Portfolio/navbar_pf68iv.png");
+        background-size: cover;
+        width: 50%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        padding-left: 80px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        justify-content: space-evenly;
+
+        >div{
+            height: 90%;
+            width: 5px;
+            background-color: black;
+        }
+        >h2{
+            cursor: pointer;
+        }
+
+    }
+       
+}
+
+.nav-star1{
+    transform: translate(-2rem,5rem);
+}
+.nav-star2{
+    transform: translate(2rem,-5rem);
+}
