@@ -22,6 +22,7 @@
     >img {
         width: 115px;
         height: 115px;
+        animation: shake 2s ease-in-out infinite;
     }
 
 
@@ -114,12 +115,15 @@
             }
 
             >a {
-                color: black;
-                font-size: 45px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+
                 text-decoration: none;
+                >span{
+                    color: black;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 45px;
+                }
             }
         }
 

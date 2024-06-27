@@ -15,6 +15,8 @@
         >img {
             width: 150px;
             height: 150px;
+            animation: shake 2s ease-in-out  infinite ;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
         }
 
         >h1 {
@@ -43,9 +45,12 @@
                 border: 8px solid black;
                 border-radius: 92px;
                 cursor: pointer;
+                
+                /* animation: bounce 1s ease-in-out infinite; */
             }
             >img{
-                transform: translate(0,30px);
+                transform: translate(-30px,50px);
+                /* animation: bounce 2s  0s infinite ; */
             }
             
         }
@@ -82,4 +87,8 @@
 .home-arrow {
     width: 130px;
     height: 130px;
+    animation: scale-bouncing 4s ease-in-out infinite;
 }
+
+
+  
