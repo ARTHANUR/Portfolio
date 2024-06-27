@@ -8,11 +8,14 @@ const Navbar = () => {
       <div className='navigation-container'>
             <h2 style={{"flex-grow" : 2 , "fontSize": "2.5rem"}}>shashank</h2>
             <div></div>
-            <h2>About //</h2>
+            <a href="#home"><h2>About //</h2></a>
+            
             <div></div>
-            <h2 >Projects</h2>
+            <a href="#project"><h2 >Projects</h2></a>
+            
             <div></div>
-            <h2>Contact Me</h2>
+            <a href="#contact"><h2>Contact Me</h2></a>
+            
 
         
       </div>

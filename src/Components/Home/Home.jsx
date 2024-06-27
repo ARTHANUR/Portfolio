@@ -3,7 +3,7 @@ import "./Home.css"
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home' id='home'>
         <div className="home-left">
             <img src="https://res.cloudinary.com/dboa7dqkl/image/upload/v1719417186/Portfolio/Frame_14_cik4vw.png" alt="" />
             <h1>I develope 👨‍💻 top notch <em>websites</em> </h1>
