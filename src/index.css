@@ -70,3 +70,21 @@ body::-webkit-scrollbar-thumb{
     opacity: 1;
   }
 }
+
+@keyframes worm-crawl {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  25% {
+    transform: translateY(10px) rotate(5deg);
+  }
+  50% {
+    transform: translateY(20px) rotate(-5deg);
+  }
+  75% {
+    transform: translateY(10px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}

@@ -8,6 +8,7 @@
     >img{
         width: 150px;
         height: 150px;
+        /* animation: worm-crawl 3s ease-in-out infinite; */
     }
     >.navigation-container{
         background-image: url("https://res.cloudinary.com/dboa7dqkl/image/upload/v1719413618/Portfolio/navbar_pf68iv.png");
