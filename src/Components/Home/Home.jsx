@@ -9,6 +9,7 @@ const Home = () => {
             <h1>I develope ✍️ top notch <em>websites</em> </h1>
             <a href="">
             <button>View Projects</button>
+            <img src="https://res.cloudinary.com/dboa7dqkl/image/upload/v1719417318/Portfolio/Frame_13_rp8fpx.png" alt="" />
             </a>
             
         </div>
