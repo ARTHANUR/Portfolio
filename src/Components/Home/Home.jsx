@@ -7,8 +7,8 @@ const Home = () => {
         <div className="home-left">
             <img src="https://res.cloudinary.com/dboa7dqkl/image/upload/v1719417186/Portfolio/Frame_14_cik4vw.png" alt="" />
             <h1>I develope 👨‍💻 top notch <em>websites</em> </h1>
-            <a href="">
-            <button>View Projects</button>
+            <a href="https://res.cloudinary.com/dboa7dqkl/image/upload/v1719643231/resume_ss_fn7y7i.png">
+            <button>Resume</button>
             <img src="https://res.cloudinary.com/dboa7dqkl/image/upload/v1719417318/Portfolio/Frame_13_rp8fpx.png" alt="" />
             </a>
             
