@@ -31,7 +31,7 @@ const Experience = () => {
         <div className="experience">
             <div className="experience-left">
                 <img src="https://res.cloudinary.com/dboa7dqkl/image/upload/v1719463325/Portfolio/Frame_18_fhfhal.png" alt="" />
-                <h1>My <em>Experience</em></h1>
+                <h1>My <br /><em>Experience</em></h1>
                 <img src="https://res.cloudinary.com/dboa7dqkl/image/upload/v1719486644/Portfolio/arrow_nbrxsv.png" alt="" />
                 <p>Have been developing since 2022</p>
             </div>
