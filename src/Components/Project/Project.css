@@ -21,14 +21,13 @@
 
 .project-cards::-webkit-scrollbar{
     background-color: transparent;
-    height: 100px;
-    width: 10px;
+    height: 10px;
+    width: 5px;
 }
 
 .project-cards::-webkit-scrollbar-thumb{
     background-color: rgba(255, 166, 0, 0.391);
     border-radius: 20px;
-    border: 2px solid rgba(0, 0, 0, 0.468);
 }
 .project-heading {
     display: flex;
