@@ -16,6 +16,7 @@
     overflow-y: hidden;
     overflow-y: scroll;
     overflow-x: hidden;
+    margin: 0 5px;
 
 }
 
@@ -23,6 +24,7 @@
     background-color: transparent;
     height: 10px;
     width: 5px;
+    border: none !important;
 }
 
 .project-cards::-webkit-scrollbar-thumb{
