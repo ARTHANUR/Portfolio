@@ -1,4 +1,5 @@
 .contact{
+    position: relative;
     width: 100vw;
     height: 70vh;
     margin-top: 50px;
@@ -42,6 +43,66 @@
             >img{
                 transform: translate(-10px, 30px);
             }
+        }
+    }
+}
+
+.form-module{
+    position: absolute;
+    top: 0px;
+    right: 220px;
+    top: 20px;
+    width: 70%;
+    height: 50vh;
+    border: 4px solid black;
+    background-color: rgba(248, 184, 7, 0.761);
+    backdrop-filter: blur(5px);
+    padding: 20px 0px 0px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.44);
+    animation: reveal 1s ease-in-out ;
+
+    >form{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        >span{
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 2rem;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        >input{
+            width: 50%;
+            height: 3rem;
+            border: 3px solid black;
+            padding: 5px 20px;
+            font-size: 1.2rem;
+            outline:none;
+            box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.598);
+        }
+        >button{
+            background-color: #BAE6FF;
+                color: black;
+                width: 300px;
+                height: 100px;
+                font-size: 30px;
+                font-weight: 700;
+                border: 8px solid black;
+                border-radius: 92px;
+                cursor: pointer;
+                transform: scale(0.5);
+                >span{
+                    transform: scale(2);
+                    margin-left: 20px;
+                }
         }
     }
 }
